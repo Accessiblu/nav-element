@@ -7,7 +7,7 @@ Examples of accessible code for navigation menus for both mobile and desktop.
 
 >Convey the menu structure, typically by using a list. Such structural information allows assistive technologies to announce the number of items in the menu and provide corresponding navigation functionality.
 
->Use an ordered list (`<ol>`) when the sequence of the menu items is important. 
+>Use an ordered list `<ol>` when the sequence of the menu items is important. 
   
 >Identify the menu, ideally using the HTML5 `<nav>` element to allow users access to the menu directly.
 
@@ -17,8 +17,8 @@ Examples of accessible code for navigation menus for both mobile and desktop.
 
 >Provide an invisible label that is read aloud to screen reader users and used by other assistive technologies to mark the current item which allows custom label text.
 
->Remove the anchor (`<a>`), so users cannot interact with the current item. That avoids misunderstandings and emphasizes that the current menu item is active.
+>Remove the anchor `<a>`, so users cannot interact with the current item. That avoids misunderstandings and emphasizes that the current menu item is active.
 
->Use the aria-current="page" attribute to indicate the current page in the menu. This technique is particularly useful when the anchor (`<a>`) cannot be removed from the HTML.
+>Use the aria-current="page" attribute to indicate the current page in the menu. This technique is particularly useful when the anchor `<a>` cannot be removed from the HTML.
 
 Information above borrowed from [W3C] (https://www.w3.org/WAI/tutorials/menus/structure/)
