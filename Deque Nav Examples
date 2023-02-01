@@ -1,0 +1,51 @@
+<h1> Three Nav Examples</n1>
+<h2>Example 1 with nav element</h2>
+<nav>
+  <ul>
+    <li><a href="home/">Home</a></li>
+    <li><a href="products/">Products</a></li>
+    <li><a href="services/">Services</a></li>
+  </ul>
+</nav>
+
+<h2>Example 2 using role</h2>
+<div role="navigation">
+  <ul>
+    <li><a href="home/">Home</a></li>
+    <li><a href="products/">Products</a></li>
+    <li><a href="services/">Services</a></li>
+  </ul>
+</div>
+
+<h2>Example 3 multiple navs</h2>
+<p>Multiple Nav Landmarks using ARIA</p>
+<nav aria-label="Main Menu">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="services.html">Services</a></li>
+  </ul>
+</nav>
+<main>
+  <div>[...other content...]</div>
+    <nav aria-label="Products list">
+      <ul>
+        <li><a href="1.html">Product 1</a></li>
+        <li><a href="2.html">Product 2</a></li>
+        <li><a href="3.html">Product 3</a></li>
+        <li><a href="4.html">Product 4</a></li>
+      </ul> 
+    </nav>
+  </div>
+  <div>[...other content...]</div>
+</main>
+<footer>
+  <nav aria-label="Corporate and legal info">
+    <ul>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="copyright.html">Copyright notice</a></li>
+        <li><a href="terms.html">Terms of use</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+    </ul> 
+  </nav>
+</section>
